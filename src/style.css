@@ -1,0 +1,27 @@
+/*font-family: 'Montserrat', sans-serif;
+font-family: 'Roboto', sans-serif;*/
+
+body{
+    background-color: #1B1B1B;
+}
+
+h1{
+    font-family: 'Roboto', sans-serif;
+    text-transform: uppercase;
+    color: white;
+}
+
+button{
+    background-color: white;
+    font-family: 'Montserrat', sans-serif;
+    color: black;
+    border-radius: 50px;
+    border: none;
+    padding: 18px 30px;
+}
+
+button:hover{
+    background-color: #AA0D0D;
+    color: white;
+    cursor: pointer;
+}
