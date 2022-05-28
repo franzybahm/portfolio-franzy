@@ -43,3 +43,13 @@ p{
 #hero:hover{
     background-image: url("../img/franzy-f.png");
 }
+
+.own-nav{
+    background-color: #202020;
+    color: white;
+    padding: 50px;
+}
+
+.own-brand{
+    font-size: 30px;
+}
