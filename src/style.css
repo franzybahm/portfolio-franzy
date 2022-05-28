@@ -11,21 +11,30 @@ h1, h2, h3, h4{
     color: white;
 }
 
+h1{
+    font-size: 72px;
+}
+
+h2{
+    font-size: 24px;
+}
+
 p{
     font-family: 'Roboto', sans-serif;
     color: white;
+    font-size: 18px;
 }
 
 .own-btn{
-    display: flex;
-    justify-content: center;
+    margin-top: 25px;
     background-color: white;
     font-family: 'Montserrat', sans-serif;
     color: black;
+    text-transform: uppercase;
     border-radius: 50px;
     border: none;
     padding: 18px 30px;
-    margin: 25px;
+    font-size: 14px;
 }
 
 .own-btn:hover{
@@ -34,13 +43,15 @@ p{
     cursor: pointer;
 }
 
-#hero{
+.hero{
+    text-align: center;
     background-image: url("../img/franzy-bw.png");
-    background-size: cover;
-    height: 100vh;
+    background-repeat: no-repeat;
+    background-position: top center;
+    height: 700px;
 }
 
-#hero:hover{
+.hero:hover{
     background-image: url("../img/franzy-f.png");
 }
 
@@ -52,4 +63,8 @@ p{
 
 .own-brand{
     font-size: 30px;
+}
+
+#hero-text{
+    margin-bottom: 40px;
 }
