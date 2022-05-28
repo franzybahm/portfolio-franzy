@@ -5,23 +5,41 @@ body{
     background-color: #1B1B1B;
 }
 
-h1{
+h1, h2, h3, h4{
     font-family: 'Roboto', sans-serif;
     text-transform: uppercase;
     color: white;
 }
 
-button{
+p{
+    font-family: 'Roboto', sans-serif;
+    color: white;
+}
+
+.own-btn{
+    display: flex;
+    justify-content: center;
     background-color: white;
     font-family: 'Montserrat', sans-serif;
     color: black;
     border-radius: 50px;
     border: none;
     padding: 18px 30px;
+    margin: 25px;
 }
 
-button:hover{
+.own-btn:hover{
     background-color: #AA0D0D;
     color: white;
     cursor: pointer;
+}
+
+#hero{
+    background-image: url("../img/franzy-bw.png");
+    background-size: cover;
+    height: 100vh;
+}
+
+#hero:hover{
+    background-image: url("../img/franzy-f.png");
 }
