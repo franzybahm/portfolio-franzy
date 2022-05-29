@@ -67,6 +67,7 @@ p{
 
 .hero:hover{
     background-image: url("../img/franzy-f.png");
+    transition: .3s ease-in-out;
 }
 
 .own-nav{
@@ -125,10 +126,15 @@ position: relative;
 }
 
 /* My Overlay */
-.person figure img{
-    background-image: url("../img/franzy-f");
+
+.person {
+    background-image: url("../img/franzy-bw.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 650px;
 }
 
-figure:hover {
-    opacity: 1;
+.person:hover {
+    background-image: url("../img/franzy-f.png");
+    transition: .3s ease-in-out;
 }
